@@ -1,0 +1,148 @@
+.home-section {
+    background-color: #fff;
+    padding: 110px 0;
+    animation: intro .3s both;
+    animation-delay: .15s;
+}
+
+.home-section:first-of-type {
+    padding-top: 100px;
+}
+
+.home-section:nth-of-type(even) {
+    background-color: #f7f7f7;
+}
+
+#profile {
+    text-align: center;
+    padding: 30px 10px;
+    position: relative;
+}
+
+.portrait {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.portrait-title h2 {
+    font-size: 1.75em;
+    font-weight: 300;
+    color: #000;
+    margin: 20px 0 10px;
+}
+
+ul.network-icon {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+ul.network-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+ul.network-icon img:hover {
+    transform: scale(1.1);
+}
+
+ul.network-icon li {
+    margin-right: 10px;
+}
+
+ul.network-icon li:last-of-type {
+    margin-right: 0px;
+}
+
+.section-heading {
+    margin-bottom: 3rem;
+}
+
+.box li {
+    font-size: .9rem;
+}
+
+.biography p:last-of-type {
+    margin-bottom: 0;
+}
+
+.box {
+    margin-bottom: 2rem;
+}
+
+.news {
+    margin-bottom: 0px;
+}
+
+#experience .icon {
+    width: 60px;
+    height: 60px;
+}
+
+#experience .duration {
+    margin: 0px;
+}
+
+#experience .title {
+    margin: 0px;
+    color: rgba(0,0,0,0.5);
+}
+
+#experience .experience-item {
+    margin-bottom: 50px;
+}
+
+#publications .pub-list-item {
+    margin-top: 50px;
+}
+
+#publications .pub-list-item:first-of-type {
+    margin-top: 0px;
+}
+
+#publications .pub-list-item .row {
+    align-items: center;
+    justify-items: center;
+}
+
+#publications img {
+    width: 100%;
+    max-width: 400px;
+}
+
+#publications .title {
+    font-weight: bolder
+}
+
+#publications .author {
+    margin: 0px;
+    font-size: 0.9rem;
+}
+
+#publications .publish-in {
+    font-style: italic;
+}
+
+#publications .publish-in strong {
+    font-size: 0.9rem;
+}
+
+#awards .award-item {
+    margin-bottom: 50px;
+}
+
+#awards .title {
+    margin: 0px;
+}
+
+#awards .explaination {
+    color: rgba(0,0,0,0.5);
+}
+
